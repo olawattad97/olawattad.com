@@ -12,11 +12,13 @@ assets/
   portrait-hero.jpg      ← intro photo (drop your file here)
   portrait-bio.jpg       ← bio photo (drop your file here)
   research/
-    motivation.png       ← figures/videos for the Research section
-    lmt-decoupled.mp4
-    lmt-coupled.mp4
-    pi-diagram.png
-    decoupled.png
+    motivation.png            ← figures for the Research section (8 cards)
+    uniform-efficiency.png
+    nonuniform-gradient.png
+    coupled-response.png
+    pi-heatmap.png
+    decoupled-method.png
+    energy-balance.png
     uhpc-beams.jpg
 ```
 
@@ -61,7 +63,7 @@ From then on `https://olawattad.com` serves this site. Canva is no longer involv
 
 * **Text** (a new paper, a talk, an award): open `index.html` on GitHub, click the pencil icon, edit, and **Commit changes**. The page updates within a minute. Each publication is one `<article class="pub">…</article>` block — copy an existing one and change the year, title, venue and DOI.
 * **Photos and figures**: upload the file into `assets/` (or `assets/research/`) with the exact filename listed above.
-* **The "Research" cards**: each card is an `<article class="work">` in `index.html`. The `<img>` or `<video>` inside it is the real figure; the `<svg>` under it is the line drawing shown until the file exists.
+* **The "Research" cards**: each card is an `<article class="work">` in `index.html`. The `<img>` inside it is the real figure; the `<svg>` under it is the line drawing shown until the file exists.
 
 ## Sources for the hosting steps
 
